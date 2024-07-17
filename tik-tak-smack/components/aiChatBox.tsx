@@ -1,11 +1,12 @@
 import React from 'react'
 
-const aiChatBox = () => {
+export default function aiChatBox() {
   return (
-    <div>
-      
-    </div>
+    <main className="flex min-h-screen flex-col items-center justify-between p-24" >
+        <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
+            <h1>AI Chat Box</h1>
+        </div>
+    </main>
   )
 }
 
-export default aiChatBox
